@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #9f0909;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Header */
+header {
+  background: white;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #a20808;
+}
+
+nav a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Tagline */
+.tagline {
+  text-align: center;
+  padding: 30px;
+  background: #ececec;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+/* Featured Categories */
+.featured {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px 60px;
+}
+
+.featured .card {
+  position: relative;
+  overflow: hidden;
+}
+
+.featured img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.card-label {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #d8a44b;
+  color: white;
+  padding: 8px 20px;
+  font-weight: bold;
+}
+
+/* Circle Categories */
+.circle-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.circle {
+  text-align: center;
+}
+
+.circle img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.circle p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Search Section */
+.search-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.search-section input {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.search-section button {
+  padding: 12px 25px;
+  background: #7d060d;
+  color: white;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Recipe Collections */
+.collections {
+  width: 60%;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+}
+
+.collections h2 {
+  margin-bottom: 20px;
+  color: #a71c1c;
+}
+
+.collections ul {
+  list-style: none;
+}
+
+.collections li {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Recipe Grid */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 40px 60px;
+}
+
+.recipe-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.recipe-title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background: #940b0b;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 50px;
+}
+
+footer input {
+  padding: 10px;
+  margin: 10px;
+}
+
+footer button {
+  padding: 10px 20px;
+  background: #d8a44b;
+  border: none;
+  color: white;
+}
